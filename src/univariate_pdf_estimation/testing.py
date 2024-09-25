@@ -90,10 +90,6 @@ if __name__ == "__main__":
 
     parser.add_argument('--epochs', type=int, default=87, help="Number of training epochs.")
     parser.add_argument('--batch_size', type=int, default=913, help="Batch size for training.")
-    parser.add_argument('--num_datasets', type=int, default=35, help="Number of datasets to generate for training.")
-    parser.add_argument('--num_paths', type=int, default=10, help="Number of paths per dataset.")
-    parser.add_argument('--T', type=float, default=4.0, help="Total time for the OU process simulation.")
-    parser.add_argument('--dt', type=float, default=0.01, help="Time step for the OU process simulation.")
     parser.add_argument('--alpha', type=float, default=0.8060688949778174, help="Weight for the accuracy error in PINN loss.")
     parser.add_argument('--beta', type=float, default=0.10847539042978625, help="Weight for the PDE residual error in PINN loss.")
     parser.add_argument('--hidden_layers', type=str, default='256,128,64', 
