@@ -1,4 +1,4 @@
-# OU_PINN_Drift_and_Diffusion_Estimation
+# OU_PINN_Drift_and_Diffusion_Estimation (Under Development)
 
 This repository uses Physics-Informed Neural Networks (PINNs) to estimate the probability density function (PDF), drift, and diffusion of univariate and bivariate Ornstein-Uhlenbeck (OU) processes. It combines deep learning with physics constraints to model stochastic dynamics, specifically using the Fokker-Planck equation as the physics constraint.
 
