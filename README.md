@@ -54,6 +54,29 @@ where:
 
 This section provides a tutorial to run the training and testing of models for univariate PDF estimation.
 
+### Environment Setup
+
+Before running the simulation, ensure that you have set up your environment with the necessary dependencies. If you haven't already, create a new Python virtual environment using Python 3.11. For example, you can use the following commands:
+
+```bash
+# Create a new virtual environment using Python 3.11
+python3.11 -m venv venv
+
+# Activate the virtual environment (Linux/macOS)
+source venv/bin/activate
+
+# Activate the virtual environment (Windows)
+venv\Scripts\activate
+````
+
+Once the environment is activated, navigate to the repository root and install all required packages by running:
+
+```bash
+pip install -r src/requirements.txt
+````
+
+This will install the packages needed for the simulation as specified in src/requirements.txt.
+
 ### Training the Model
 
 You can train either an MLP or PINN model for estimating the PDF of the univariate OU process. By default, the hyperparameters are optimized for the PINN model. If you want to use the optimized hyperparameters for the MLP model, use the specified MLP parameters.
